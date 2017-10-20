@@ -1,0 +1,16 @@
+{
+  "name": "franyza/repo32",
+  "description": "Repo 3.2",
+  "version": "1.0.0",
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "replace": {
+    "franyza/repo31":"self.version"
+  },  
+  "autoload": {
+        "psr-4": {
+            "Franyza\\Repo3\\": ""
+        }
+    }
+}
